@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 
 export default function Header() {
   return (
@@ -11,7 +10,7 @@ export default function Header() {
         </h1>
         <p className="text-green-500">
           I am a{" "}
-          <Typical
+          {/* <Typical
             loop={Infinity}
             wrapper="b"
             steps={[
@@ -24,7 +23,7 @@ export default function Header() {
               "Mediocre Golfer",
               1000,
             ]}
-          />
+          /> */}
         </p>
       </div>
     </header>

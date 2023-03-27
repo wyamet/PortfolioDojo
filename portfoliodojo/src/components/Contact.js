@@ -11,12 +11,12 @@ export default function Contact() {
           >
             My Resume
           </h2>
-          <img src="./resume.png" alt="Resume"></img>
+          <img src="./images/resume.png" alt="Resume"></img>
           <p className="text-gray-400 text-base mb-4">
             Download my resume here:
           </p>
           <a
-            href="./Resume.pdf"
+            href="./images/Resume.pdf"
             className="text-indigo-500 inline-flex items-center"
             download
           >
