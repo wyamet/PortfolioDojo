@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PortfolioDojo/static/css/main.1349245f.css",
+    "main.js": "/PortfolioDojo/static/js/main.384d87ba.js",
+    "static/media/BeersNbites.png": "/PortfolioDojo/static/media/BeersNbites.28e4ffe7f7ef5332fa54.png",
+    "static/media/Biopic.png": "/PortfolioDojo/static/media/Biopic.082d5d3f2f457b87b5c0.png",
+    "static/media/movies2watch.png": "/PortfolioDojo/static/media/movies2watch.8fcbe24b21396c8bac4a.png",
+    "static/media/resume.png": "/PortfolioDojo/static/media/resume.de02f43c69b916e17f3b.png",
+    "static/media/EmployeeCMS.png": "/PortfolioDojo/static/media/EmployeeCMS.f4260523ccc3d6d2add9.png",
+    "static/media/Quizapp.png": "/PortfolioDojo/static/media/Quizapp.cca5763ac0d7ce27edc4.png",
+    "static/media/Resume.pdf": "/PortfolioDojo/static/media/Resume.3557dd9d4d279d50f393.pdf",
+    "static/media/WorkdayScheduler.png": "/PortfolioDojo/static/media/WorkdayScheduler.79caebeaf773169fcf51.png",
+    "static/media/PasswordGenerator.png": "/PortfolioDojo/static/media/PasswordGenerator.a81345d830c57eeb5b17.png",
+    "index.html": "/PortfolioDojo/index.html",
+    "main.1349245f.css.map": "/PortfolioDojo/static/css/main.1349245f.css.map",
+    "main.384d87ba.js.map": "/PortfolioDojo/static/js/main.384d87ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1349245f.css",
+    "static/js/main.384d87ba.js"
+  ]
+}
