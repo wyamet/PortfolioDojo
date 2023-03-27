@@ -21,7 +21,7 @@ export default function Header() {
               1000,
 
               "Mediocre golfer",
-              1000,
+              2000,
               () => {
                 console.log("Sequence completed"); // Place optional callbacks anywhere in the array
               },

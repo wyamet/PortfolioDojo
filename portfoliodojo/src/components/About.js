@@ -1,4 +1,5 @@
 import React from "react";
+import Biopic from "../images/Biopic.png";
 
 export default function About() {
   return (
@@ -32,9 +33,9 @@ export default function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
-            src="./images/Biopic.png"
-          />
+            src={Biopic}
+            alt="Myself"
+          ></img>
         </div>
       </div>
     </section>

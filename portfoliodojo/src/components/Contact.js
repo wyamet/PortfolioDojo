@@ -1,5 +1,6 @@
 import React from "react";
-
+import resume from "../images/resume.png";
+import Resume from "../images/Resume.pdf";
 export default function Contact() {
   return (
     <section id="contact" className="relative justify-center">
@@ -11,12 +12,12 @@ export default function Contact() {
           >
             My Resume
           </h2>
-          <img src="./images/resume.png" alt="Resume"></img>
+          <img src={resume} alt="Resume"></img>
           <p className="text-gray-400 text-base mb-4">
             Download my resume here:
           </p>
           <a
-            href="./images/Resume.pdf"
+            href={Resume}
             className="text-indigo-500 inline-flex items-center"
             download
           >
