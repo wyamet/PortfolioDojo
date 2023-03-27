@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Header() {
   return (
@@ -10,20 +11,26 @@ export default function Header() {
         </h1>
         <p className="text-green-500">
           I am a{" "}
-          {/* <Typical
-            loop={Infinity}
-            wrapper="b"
-            steps={[
-              "Student",
+          <TypeAnimation
+            sequence={[
+              "Designer",
               1000,
               "Full Stack Developer",
               1000,
-              "Designer",
+              "Student",
               1000,
-              "Mediocre Golfer",
+
+              "Mediocre golfer",
               1000,
+              () => {
+                console.log("Sequence completed"); // Place optional callbacks anywhere in the array
+              },
             ]}
-          /> */}
+            wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+            style={{ fontSize: "1em", display: "inline-block" }}
+          />
         </p>
       </div>
     </header>
