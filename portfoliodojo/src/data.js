@@ -48,6 +48,14 @@ export const projects = [
     image: require("./images/Quizapp.png"),
     link: "https://wyamet.github.io/Module-4-quizApp/",
   },
+  {
+    title: "Sherpa Studios",
+    subtitle: "React, GraphQL, MongoDB, Node.js, Express, Stripe, Spotify API",
+    description:
+      "Welcome to Sherpa Records, this app was built using React, GraphQL, Express, Node.js, MUI, Stripe, MongoDB, and the Spotify API.",
+    image: require("./images/sherpa.png"),
+    link: "https://sherpa-studios.herokuapp.com/",
+  },
 ];
 
 export const skills = [
